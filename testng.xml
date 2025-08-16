@@ -20,10 +20,18 @@
   	</test> -->
   		<test thread-count="5" name="Test2" enabled="true">
   			<groups>
-		    	 <define name="one time run"> 
-						<include name="smoke"/>
-				</define>
+		    	<!--
+               <define name="one time run"> 
+                  <include name="smoke"/>
+               </define>
+                   -->
+				<run>
+               <include name="smoke"/>
+                  <include name="regression"/>
+               </run>
 	   		 </groups>
+	   		 
+	   		 
     	<classes>
      	 <class name="testdemo.ParaBankTesting">
      	 
@@ -33,7 +41,8 @@
      	     </methods> -->
      	     
      	     
-     	 </class>
+     	</class>
+     	
     	</classes>
   	</test>
 </suite> <!-- Suite -->

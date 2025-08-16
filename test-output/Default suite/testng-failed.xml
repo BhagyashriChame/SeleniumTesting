@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testdemo.ParaBankTesting">
+      <class name="DataProvider_Example.Provider">
         <methods>
-          <include name="afterClass"/>
-          <include name="Login"/>
-          <include name="LaunchBrowser"/>
-          <include name="RegisterNewUser"/>
+          <include name="logIn" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- testdemo.ParaBankTesting -->
+      </class> <!-- DataProvider_Example.Provider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
