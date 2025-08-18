@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+            <a href="#" panel-name="suite-SeleniumSyncExceptionSuite" class="navigator-link">
+              <span class="suite-name border-failed">SeleniumSyncExceptionSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                  <a href="#" panel-name="test-xml-SeleniumSyncExceptionSuite" class="navigator-link ">
                     <span>E:\JPAExamples\TestProject\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-SeleniumSyncExceptionSuite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>2 groups</span>
+                  <a href="#" panel-name="group-SeleniumSyncExceptionSuite" class="navigator-link ">
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                  <a href="#" panel-name="times-SeleniumSyncExceptionSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-SeleniumSyncExceptionSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-SeleniumSyncExceptionSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-SeleniumSyncExceptionSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,31 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SeleniumSyncExceptionSuite" class="hide-methods failed suite-SeleniumSyncExceptionSuite"> (hide)</a> <!-- hide-methods failed suite-SeleniumSyncExceptionSuite -->
+                      <a href="#" panel-name="suite-SeleniumSyncExceptionSuite" class="show-methods failed suite-SeleniumSyncExceptionSuite"> (show)</a> <!-- show-methods failed suite-SeleniumSyncExceptionSuite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content failed suite-SeleniumSyncExceptionSuite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testdemo.ParaBankTesting" class="method navigator-link" hash-for-method="Login(Shri19, admin123)">Login(Shri19, admin123)</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SeleniumSyncExceptionSuite" title="selenium.SyncExceptionTest" class="method navigator-link" hash-for-method="testLoginWithSyncAndExceptionHandling">testLoginWithSyncAndExceptionHandling</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testdemo.ParaBankTesting" class="method navigator-link" hash-for-method="Login(Abhas1, Admin123)">Login(Abhas1, Admin123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testdemo.ParaBankTesting" class="method navigator-link" hash-for-method="RegisterNewUser">RegisterNewUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content failed suite-SeleniumSyncExceptionSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -127,40 +117,29 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+        <div panel-name="suite-SeleniumSyncExceptionSuite" class="panel SeleniumSyncExceptionSuite">
+          <div class="suite-SeleniumSyncExceptionSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testdemo.ParaBankTesting</span>
+              <img src="failed.png"/>
+              <span class="class-name">selenium.SyncExceptionTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Login(Shri19, admin123)">
-                  </a> <!-- Login(Shri19, admin123) -->
-                  <span class="method-name">Login</span>
-                  <span class="parameters">(Shri19,admin123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Login(Abhas1, Admin123)">
-                  </a> <!-- Login(Abhas1, Admin123) -->
-                  <span class="method-name">Login</span>
-                  <span class="parameters">(Abhas1,Admin123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="RegisterNewUser">
-                  </a> <!-- RegisterNewUser -->
-                  <span class="method-name">RegisterNewUser</span>
+                  <a name="testLoginWithSyncAndExceptionHandling">
+                  </a> <!-- testLoginWithSyncAndExceptionHandling -->
+                  <span class="method-name">testLoginWithSyncAndExceptionHandling</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected exception.
+	at selenium.SyncExceptionTest.testLoginWithSyncAndExceptionHandling(SyncExceptionTest.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-        </div> <!-- panel Suite -->
-        <div panel-name="test-xml-Suite" class="panel">
+          </div> <!-- suite-SeleniumSyncExceptionSuite-class-failed -->
+        </div> <!-- panel SeleniumSyncExceptionSuite -->
+        <div panel-name="test-xml-SeleniumSyncExceptionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">E:\JPAExamples\TestProject\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -168,148 +147,99 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
-  &lt;parameter name=&quot;url&quot; value=&quot;https://parabank.parasoft.com/&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot;&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;smoke&quot;/&gt;
-        &lt;include name=&quot;regression&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
+&lt;suite name=&quot;SeleniumSyncExceptionSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SyncExceptionTest&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testdemo.ParaBankTesting&quot;/&gt;
+      &lt;class name=&quot;selenium.SyncExceptionTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test2 --&gt;
-&lt;/suite&gt; &lt;!-- Suite --&gt;
+  &lt;/test&gt; &lt;!-- SyncExceptionTest --&gt;
+&lt;/suite&gt; &lt;!-- SeleniumSyncExceptionSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Suite" class="panel">
+        <div panel-name="testlist-SeleniumSyncExceptionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Suite</span>
+            <span class="header-content">Tests for SeleniumSyncExceptionSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test2 (1 class)</span>
+                <span class="test-name">SyncExceptionTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Suite" class="panel">
+        <div panel-name="group-SeleniumSyncExceptionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Suite</span>
+            <span class="header-content">Groups for SeleniumSyncExceptionSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">regression</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">Login</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">RegisterNewUser</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">smoke</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">Login</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">RegisterNewUser</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Suite" class="panel">
+        <div panel-name="times-SeleniumSyncExceptionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Suite</span>
+            <span class="header-content">Times for SeleniumSyncExceptionSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Suite');
-function tableData_Suite() {
+suiteTableInitFunctions.push('tableData_SeleniumSyncExceptionSuite');
+function tableData_SeleniumSyncExceptionSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Login')
-data.setCell(0, 2, 'testdemo.ParaBankTesting')
-data.setCell(0, 3, 12953);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Login')
-data.setCell(1, 2, 'testdemo.ParaBankTesting')
-data.setCell(1, 3, 12774);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'RegisterNewUser')
-data.setCell(2, 2, 'testdemo.ParaBankTesting')
-data.setCell(2, 3, 5894);
-window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+data.setCell(0, 1, 'testLoginWithSyncAndExceptionHandling')
+data.setCell(0, 2, 'selenium.SyncExceptionTest')
+data.setCell(0, 3, 348);
+window.suiteTableData['SeleniumSyncExceptionSuite']= { tableData: data, tableDiv: 'times-div-SeleniumSyncExceptionSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 seconds</span>
-              <div id="times-div-Suite">
-              </div> <!-- times-div-Suite -->
+              <span class="suite-total-time">Total running time: 348 ms</span>
+              <div id="times-div-SeleniumSyncExceptionSuite">
+              </div> <!-- times-div-SeleniumSyncExceptionSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Suite" class="panel">
+        <div panel-name="reporter-SeleniumSyncExceptionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Suite</span>
+            <span class="header-content">Reporter output for SeleniumSyncExceptionSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Suite" class="panel">
+        <div panel-name="ignored-methods-SeleniumSyncExceptionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testdemo.ParaBankTesting</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">CustomerCare</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Suite" class="panel">
+        <div panel-name="chronological-SeleniumSyncExceptionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testdemo.ParaBankTesting</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">selenium.SyncExceptionTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">LaunchBrowser(Chrome, https://parabank.parasoft.com/)</span>
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">RegisterNewUser</span>
-                <span class="method-start">9706 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLoginWithSyncAndExceptionHandling</span>
+                <span class="method-start">11009 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Login(Shri19, admin123)</span>
-                <span class="method-start">15636 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Login(Abhas1, Admin123)</span>
-                <span class="method-start">28426 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11367 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -3,7 +3,10 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <parameter name="browserName" value="Chrome"/>
   <parameter name="url" value="https://parabank.parasoft.com/"/>
-  <test thread-count="5" name="Test2(failed)">
+  <listeners>
+    <listener class-name="testdemo.TestNGListeners"/>
+  </listeners>
+  <test thread-count="5" name="Smoke Test(failed)">
     <groups>
       <run>
         <include name="smoke"/>
@@ -13,10 +16,11 @@
     <classes>
       <class name="testdemo.ParaBankTesting">
         <methods>
-          <include name="Login" invocation-numbers="0 1"/>
+          <include name="afterClass"/>
+          <include name="Login"/>
           <include name="LaunchBrowser"/>
         </methods>
       </class> <!-- testdemo.ParaBankTesting -->
     </classes>
-  </test> <!-- Test2(failed) -->
+  </test> <!-- Smoke Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
