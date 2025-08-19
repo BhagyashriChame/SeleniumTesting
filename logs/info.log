@@ -1,0 +1,7 @@
+[17:05:11] [INFO] ParaBankTesting - INFO: Browser launched successfully with URL: https://parabank.parasoft.com/
+[17:05:17] [INFO] ParaBankTesting - WARN: Registration failed -> Username already exists: Shri19
+[17:05:21] [INFO] ParaBankTesting - WARN: Registration failed -> Username already exists: Ghosh10
+[17:05:25] [INFO] ParaBankTesting - WARN: Registration failed -> Username already exists: Abhas1
+[17:05:43] [INFO] ParaBankTesting - ERROR: Login failed for user: Shri19
+[17:05:43] [INFO] ParaBankTesting - FATAL: Critical login failure detected for user: Shri19
+[17:05:45] [INFO] ParaBankTesting - INFO: Browser closed and WebDriver quit

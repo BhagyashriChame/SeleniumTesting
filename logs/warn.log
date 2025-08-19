@@ -1,0 +1,5 @@
+[17:05:17] [WARN] ParaBankTesting - WARN: Registration failed -> Username already exists: Shri19
+[17:05:21] [WARN] ParaBankTesting - WARN: Registration failed -> Username already exists: Ghosh10
+[17:05:25] [WARN] ParaBankTesting - WARN: Registration failed -> Username already exists: Abhas1
+[17:05:43] [WARN] ParaBankTesting - ERROR: Login failed for user: Shri19
+[17:05:43] [WARN] ParaBankTesting - FATAL: Critical login failure detected for user: Shri19

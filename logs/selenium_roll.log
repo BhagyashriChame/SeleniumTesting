@@ -1,0 +1,9 @@
+[2025-08-19 13:31:07] INFO  selenium.SyncExceptionTest - starting the login
+[2025-08-19 14:03:59] INFO  selenium.SyncExceptionTest - Starting the login process
+[2025-08-19 14:04:06] INFO  selenium.SyncExceptionTest - Opened ParaBank URL
+[2025-08-19 14:04:06] INFO  selenium.SyncExceptionTest - Waiting for username field
+[2025-08-19 14:04:07] INFO  selenium.SyncExceptionTest - Entered username
+[2025-08-19 14:04:07] INFO  selenium.SyncExceptionTest - Entered password
+[2025-08-19 14:04:08] INFO  selenium.SyncExceptionTest - Clicked login button
+[2025-08-19 14:04:08] INFO  selenium.SyncExceptionTest - Login successful, Logout link found!
+[2025-08-19 14:04:08] INFO  selenium.SyncExceptionTest - Browser closed

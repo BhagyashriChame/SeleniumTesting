@@ -1,0 +1,24 @@
+[17:05:03] [DEBUG] ParaBankTesting - DEBUG: Browser parameter received: Chrome
+[17:05:11] [DEBUG] ParaBankTesting - INFO: Browser launched successfully with URL: https://parabank.parasoft.com/
+[17:05:11] [DEBUG] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[17:05:11] [DEBUG] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[17:05:13] [DEBUG] ParaBankTesting - DEBUG: Test data received -> Shri, Chame, Swargate, Pune, Maharashtra, 413512.0, 9.87654321E9, 1.23456789E8, Shri19, Admin123
+[17:05:17] [DEBUG] ParaBankTesting - WARN: Registration failed -> Username already exists: Shri19
+[17:05:17] [DEBUG] ParaBankTesting - DEBUG: Test data received -> Prabal, Ghosh, Gurap, Kolkata, WB, 712303, 9123456780, 987654321, Ghosh10, prabal@123
+[17:05:21] [DEBUG] ParaBankTesting - WARN: Registration failed -> Username already exists: Ghosh10
+[17:05:21] [DEBUG] ParaBankTesting - DEBUG: Test data received -> Abhas, Mittal, Shastri Nagar, Meerut, UP, 250004.0, 9.758302001E9, 1.59753462E8, Abhas1, abhas@123
+[17:05:25] [DEBUG] ParaBankTesting - WARN: Registration failed -> Username already exists: Abhas1
+[17:05:25] [DEBUG] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[17:05:25] [DEBUG] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[17:05:25] [DEBUG] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[17:05:25] [DEBUG] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[17:05:25] [DEBUG] ParaBankTesting - DEBUG: Credentials -> username: Shri19, password: Admin123
+[17:05:25] [DEBUG] ParaBankTesting - DEBUG: Credentials -> username: Ghosh10, password: prabal@123
+[17:05:25] [DEBUG] ParaBankTesting - DEBUG: Credentials -> username: Ghosh10, password: prabal@123
+[17:05:25] [DEBUG] ParaBankTesting - DEBUG: Credentials -> username: Shri19, password: Admin123
+[17:05:25] [DEBUG] ParaBankTesting - DEBUG: Credentials -> username: Abhas1, password: abhas@123
+[17:05:25] [DEBUG] ParaBankTesting - DEBUG: Credentials -> username: Abhas1, password: abhas@123
+[17:05:43] [DEBUG] ParaBankTesting - ERROR: Login failed for user: Shri19
+[17:05:43] [DEBUG] ParaBankTesting - FATAL: Critical login failure detected for user: Shri19
+[17:05:45] [DEBUG] ParaBankTesting - DEBUG: WebDriver.quit() executed successfully
+[17:05:45] [DEBUG] ParaBankTesting - INFO: Browser closed and WebDriver quit

@@ -1,0 +1,51 @@
+[2025-08-19 16:54:02] INFO  ParaBankTesting - Launching browser: Chrome with URL: https://parabank.parasoft.com/
+[2025-08-19 16:54:15] INFO  ParaBankTesting - Browser launched successfully and navigated to https://parabank.parasoft.com/
+[2025-08-19 16:54:16] INFO  ParaBankTesting - Starting registration test for username: Shri19
+[2025-08-19 16:54:21] WARN  ParaBankTesting - Registration failed for username: Shri19 (already exists)
+[2025-08-19 16:54:21] INFO  ParaBankTesting - Starting registration test for username: Ghosh10
+[2025-08-19 16:54:24] WARN  ParaBankTesting - Registration failed for username: Ghosh10 (already exists)
+[2025-08-19 16:54:24] INFO  ParaBankTesting - Starting registration test for username: Abhas1
+[2025-08-19 16:54:28] WARN  ParaBankTesting - Registration failed for username: Abhas1 (already exists)
+[2025-08-19 16:54:28] INFO  ParaBankTesting - Attempting login for user: Ghosh10
+[2025-08-19 16:54:28] INFO  ParaBankTesting - Attempting login for user: Abhas1
+[2025-08-19 16:54:28] INFO  ParaBankTesting - Attempting login for user: Shri19
+[2025-08-19 16:54:28] INFO  ParaBankTesting - Attempting login for user: Shri19
+[2025-08-19 16:54:28] INFO  ParaBankTesting - Attempting login for user: Ghosh10
+[2025-08-19 16:54:28] INFO  ParaBankTesting - Attempting login for user: Abhas1
+[2025-08-19 16:54:48] ERROR ParaBankTesting - Login failed for user: Ghosh10
+[2025-08-19 16:54:50] INFO  ParaBankTesting - Browser closed and WebDriver quit successfully
+[2025-08-19 17:08:21] INFO  ParaBankTesting - Launching browser: Chrome with URL: https://parabank.parasoft.com/
+[2025-08-19 17:08:26] INFO  ParaBankTesting - Browser launched successfully and navigated to https://parabank.parasoft.com/
+[2025-08-19 17:08:27] INFO  ParaBankTesting - Starting registration test for username: Shri19
+[2025-08-19 17:08:31] WARN  ParaBankTesting - Registration failed for username: Shri19 (already exists)
+[2025-08-19 17:08:31] INFO  ParaBankTesting - Starting registration test for username: Ghosh10
+[2025-08-19 17:08:34] WARN  ParaBankTesting - Registration failed for username: Ghosh10 (already exists)
+[2025-08-19 17:08:34] INFO  ParaBankTesting - Starting registration test for username: Abhas1
+[2025-08-19 17:08:38] WARN  ParaBankTesting - Registration failed for username: Abhas1 (already exists)
+[2025-08-19 17:08:38] INFO  ParaBankTesting - Attempting login for user: Ghosh10
+[2025-08-19 17:08:38] INFO  ParaBankTesting - Attempting login for user: Abhas1
+[2025-08-19 17:08:38] INFO  ParaBankTesting - Attempting login for user: Ghosh10
+[2025-08-19 17:08:38] INFO  ParaBankTesting - Attempting login for user: Abhas1
+[2025-08-19 17:08:38] INFO  ParaBankTesting - Attempting login for user: Shri19
+[2025-08-19 17:08:38] INFO  ParaBankTesting - Attempting login for user: Shri19
+[2025-08-19 17:08:56] ERROR ParaBankTesting - Login failed for user: Ghosh10
+[2025-08-19 17:08:58] INFO  ParaBankTesting - Browser closed and WebDriver quit successfully
+[2025-08-19 17:14:16] INFO  Utils - [TestNG] Running:
+  E:\JPAExamples\TestProject\testng.xml
+
+[2025-08-19 17:14:16] INFO  ParaBankTesting - Launching browser: Chrome with URL: https://parabank.parasoft.com/
+[2025-08-19 17:14:24] INFO  ParaBankTesting - Browser launched successfully and navigated to https://parabank.parasoft.com/
+[2025-08-19 17:14:25] INFO  ParaBankTesting - Starting registration test for username: Shri19
+[2025-08-19 17:14:29] WARN  ParaBankTesting - Registration failed for username: Shri19 (already exists)
+[2025-08-19 17:14:29] INFO  ParaBankTesting - Starting registration test for username: Ghosh10
+[2025-08-19 17:14:32] WARN  ParaBankTesting - Registration failed for username: Ghosh10 (already exists)
+[2025-08-19 17:14:32] INFO  ParaBankTesting - Starting registration test for username: Abhas1
+[2025-08-19 17:14:36] WARN  ParaBankTesting - Registration failed for username: Abhas1 (already exists)
+[2025-08-19 17:14:36] INFO  ParaBankTesting - Attempting login for user: Ghosh10
+[2025-08-19 17:14:36] INFO  ParaBankTesting - Attempting login for user: Abhas1
+[2025-08-19 17:14:36] INFO  ParaBankTesting - Attempting login for user: Abhas1
+[2025-08-19 17:14:36] INFO  ParaBankTesting - Attempting login for user: Shri19
+[2025-08-19 17:14:36] INFO  ParaBankTesting - Attempting login for user: Shri19
+[2025-08-19 17:14:36] INFO  ParaBankTesting - Attempting login for user: Ghosh10
+[2025-08-19 17:14:56] ERROR ParaBankTesting - Login failed for user: Abhas1
+[2025-08-19 17:14:58] INFO  ParaBankTesting - Browser closed and WebDriver quit successfully

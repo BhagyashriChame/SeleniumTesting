@@ -1,0 +1,84 @@
+[17:05:03] [TRACE] ParaBankTesting - TRACE: Starting browser setup...
+[17:05:03] [TRACE] ParaBankTesting - DEBUG: Browser parameter received: Chrome
+[17:05:11] [TRACE] ParaBankTesting - INFO: Browser launched successfully with URL: https://parabank.parasoft.com/
+[17:05:11] [TRACE] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[17:05:11] [TRACE] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[17:05:12] [TRACE] XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+[17:05:12] [TRACE] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[17:05:12] [TRACE] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[17:05:12] [TRACE] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[17:05:12] [TRACE] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[17:05:12] [TRACE] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[17:05:12] [TRACE] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[17:05:12] [TRACE] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[17:05:12] [TRACE] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[17:05:12] [TRACE] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[17:05:12] [TRACE] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[17:05:12] [TRACE] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[17:05:12] [TRACE] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[17:05:12] [TRACE] XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+[17:05:12] [TRACE] XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle themefd26doctype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctstylesheet4257type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctfonts6623type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctfont14d8type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctfills2c6ftype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctfill550ctype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctborders0d66type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctborderf935type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctcellxfs1322type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctxf97f7type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctdxfsb26atype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle cttablestyles872ftype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle sstf81fdoctype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctsst44f3type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctrsta472type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle workbookec17doctype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctworkbook83c3type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctsheets49fdtype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctsheet4dbetype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle strelationshipid1e94type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle worksheetf539doctype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctworksheet530dtype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctcols627ctype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctcola95ftype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctsheetdata8408type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctrowdd39type
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle ctcell842btype
+[17:05:12] [TRACE] XBeanDebug - Resolving type for handle stcellrefe4e0type
+[17:05:13] [TRACE] XBeanDebug - Resolving type for handle stxstringf179type
+[17:05:13] [TRACE] XBeanDebug - Resolving type for handle stcelltypebf95type
+[17:05:13] [TRACE] XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+[17:05:13] [TRACE] XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+[17:05:13] [TRACE] ParaBankTesting - TRACE: Entering RegisterNewUser() for username: Shri19
+[17:05:13] [TRACE] ParaBankTesting - DEBUG: Test data received -> Shri, Chame, Swargate, Pune, Maharashtra, 413512.0, 9.87654321E9, 1.23456789E8, Shri19, Admin123
+[17:05:17] [TRACE] ParaBankTesting - WARN: Registration failed -> Username already exists: Shri19
+[17:05:17] [TRACE] ParaBankTesting - TRACE: Entering RegisterNewUser() for username: Ghosh10
+[17:05:17] [TRACE] ParaBankTesting - DEBUG: Test data received -> Prabal, Ghosh, Gurap, Kolkata, WB, 712303, 9123456780, 987654321, Ghosh10, prabal@123
+[17:05:21] [TRACE] ParaBankTesting - WARN: Registration failed -> Username already exists: Ghosh10
+[17:05:21] [TRACE] ParaBankTesting - TRACE: Entering RegisterNewUser() for username: Abhas1
+[17:05:21] [TRACE] ParaBankTesting - DEBUG: Test data received -> Abhas, Mittal, Shastri Nagar, Meerut, UP, 250004.0, 9.758302001E9, 1.59753462E8, Abhas1, abhas@123
+[17:05:25] [TRACE] ParaBankTesting - WARN: Registration failed -> Username already exists: Abhas1
+[17:05:25] [TRACE] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[17:05:25] [TRACE] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[17:05:25] [TRACE] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[17:05:25] [TRACE] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[17:05:25] [TRACE] ParaBankTesting - TRACE: Entering Login() for user: Shri19
+[17:05:25] [TRACE] ParaBankTesting - DEBUG: Credentials -> username: Shri19, password: Admin123
+[17:05:25] [TRACE] ParaBankTesting - TRACE: Entering Login() for user: Ghosh10
+[17:05:25] [TRACE] ParaBankTesting - DEBUG: Credentials -> username: Ghosh10, password: prabal@123
+[17:05:25] [TRACE] ParaBankTesting - TRACE: Entering Login() for user: Ghosh10
+[17:05:25] [TRACE] ParaBankTesting - DEBUG: Credentials -> username: Ghosh10, password: prabal@123
+[17:05:25] [TRACE] ParaBankTesting - TRACE: Entering Login() for user: Shri19
+[17:05:25] [TRACE] ParaBankTesting - DEBUG: Credentials -> username: Shri19, password: Admin123
+[17:05:25] [TRACE] ParaBankTesting - TRACE: Entering Login() for user: Abhas1
+[17:05:25] [TRACE] ParaBankTesting - DEBUG: Credentials -> username: Abhas1, password: abhas@123
+[17:05:25] [TRACE] ParaBankTesting - TRACE: Entering Login() for user: Abhas1
+[17:05:25] [TRACE] ParaBankTesting - DEBUG: Credentials -> username: Abhas1, password: abhas@123
+[17:05:43] [TRACE] ParaBankTesting - ERROR: Login failed for user: Shri19
+[17:05:43] [TRACE] ParaBankTesting - FATAL: Critical login failure detected for user: Shri19
+[17:05:44] [TRACE] ParaBankTesting - TRACE: Entering afterClass() for cleanup...
+[17:05:45] [TRACE] ParaBankTesting - DEBUG: WebDriver.quit() executed successfully
+[17:05:45] [TRACE] ParaBankTesting - INFO: Browser closed and WebDriver quit
